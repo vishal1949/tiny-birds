@@ -14,6 +14,7 @@
   "scripts": {
     "build": "webpack --watch",
     "start": "node app.js",
+    "server": "nodemon app.js",
     "start:debug": "DEBUG=* node app.js"
   },
   "dependencies": {
@@ -29,6 +30,6 @@
     "webpack": "^3.4.1"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.18.11"
   }
 }
